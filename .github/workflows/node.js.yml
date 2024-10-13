@@ -37,7 +37,7 @@ jobs:
         key: ${{ secrets.EC2_SSH_KEY }}
         port: 22
         script: |
-          cd /home/ubuntu/CI-CD-Practice/my-cicd-app
+          cd /home/ubuntu/CI-CD-Practice
           git pull origin master
           npm install
           pm2 restart all
