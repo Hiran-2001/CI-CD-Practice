@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 5000;
 
 console.log('Server First hit')
 
-app.get('/', (req, res) => {
+app.get('/get', (req, res) => {
    res.send('Hello World from Node.js API');
 });
 
